@@ -1,53 +1,51 @@
----
-cover: static/cover.webp
-itchio: https://gdquest-demos.itch.io/Godot-4-Character-3D-Demo
-tags: 3D third-person-shooter shooter controller
-description: "A 3D Third Person Shooter Controller Demo"
----
+RoboBlast: Demo Shooter en Tercera Persona (Godot 4, 3D)
 
-# RoboBlast: Third-Person Shooter demo (Godot 4, 3D)
+Esta demo open-source para Godot 4 muestra cómo crear un controlador de personaje 3D inspirado en juegos como Ratchet and Clank o Jak and Daxter.
+Puedes copiar el personaje directamente a tu proyecto como un asset plug-and-play para prototipar juegos 3D y ampliarlo según tus necesidades.
 
-![](static/third-person-shooter-demo.webp)
+Incluye un personaje que puede correr, saltar, atacar cuerpo a cuerpo, apuntar, disparar y lanzar granadas.
 
-This open-source Godot 4 demo shows how to create a 3D character controller inspired by games like Ratchet and Clank or Jak and Daxter. You can copy the character to your project as a plug-and-play asset to prototype 3D games with and build upon.
+Hay dos tipos de enemigos:
 
-It features a character that can run, jump, make a melee attack, aim, shoot, and throw grenades.
+Avispas voladoras que disparan proyectiles.
 
-![](static/third-person-character-aiming-grenade.webp)
+Escarabajos que atacan por tierra.
 
-There are two kinds of enemies: flying wasps that fire bullets and beetles that attack you on the ground. The environment comes with breakable crates, jumping pads, and coins that move to the player's character.
+El entorno incluye cajas rompibles, plataformas de salto y monedas que se mueven hacia el personaje del jugador.
 
-## How to run:
+Cómo ejecutar el proyecto
 
-1. Download or clone the GitHub repository.
-2. Press <kbd>F5</kbd> or `Run Project`.
+Descarga o clona el repositorio de GitHub.
 
-## Controls:
+Presiona <kbd>F5</kbd> o selecciona Run Project.
 
-- <kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> or <kbd>left stick</kbd> to move.
-- <kbd>mouse</kbd> or <kbd>right stick</kbd> to move the camera around.
-- <kbd>Space</kbd> or <kbd>Xbox Ⓐ</kbd> to jump.
-- <kbd>Left mouse</kbd> or <kbd>Xbox Ⓑ</kbd> to shoot.
-- <kbd>Right mouse</kbd> or <kbd>Xbox RT</kbd>to aim.
-- <kbd>Tab</kbd> or <kbd>Xbox Ⓧ</kbd> to cycle between bullets and grenades.
+Controles
 
-## FAQ:
+<kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> o <kbd>stick izquierdo</kbd>: moverse.
 
-### How do I use the player character in my game?
+<kbd>Mouse</kbd> o <kbd>stick derecho</kbd>: mover la cámara.
 
-Copy the following folders into the root of your project:
+<kbd>Espacio</kbd> o <kbd>Xbox Ⓐ</kbd>: saltar.
 
-- `Player`: contains the main Player assets and scenes.
-- `shared`: contains shaders used by the player asset.
+<kbd>Click izquierdo</kbd> o <kbd>Xbox Ⓑ</kbd>: disparar.
 
-The following `Input Map` actions are needed for the `Player.tscn` to work:
+<kbd>Click derecho</kbd> o <kbd>Xbox RT</kbd>: apuntar.
 
-- `move_left`, `move_right`, `move_up`, `move_down`: move the character according to the camera's orientation.
-- `camera_right`, `camera_left`, `camera_up`, `camera_down`: rotate the camera around the character.
-- `jump`, `attack`, `aim`, `swap_weapons`: Action buttons for the character.
+<kbd>Tab</kbd> o <kbd>Xbox Ⓧ</kbd>: cambiar entre balas y granadas.
 
-The `Player.tscn` scene works as a standalone scene and doesn't need other cameras to work. You can change the player UI by changing the `Control` node inside `Player.tscn`.
+Preguntas Frecuentes (FAQ)
+¿Cómo uso el personaje del jugador en mi juego?
 
-## License:
+Copia las siguientes carpetas en la raíz de tu proyecto:
 
-All code is MIT-licensed, and assets are CC-By 4.0 [GDQuest](https://www.gdquest.com/).
+Player: contiene los assets y escenas principales del jugador.
+
+shared: contiene los shaders utilizados por el jugador.
+
+Las siguientes acciones deben existir en el Input Map para que Player.tscn funcione correctamente:
+
+move_left, move_right, move_up, move_down: mueven al personaje según la orientación de la cámara.
+
+camera_right, camera_left, camera_up, camera_down: rotan la cámara alrededor del personaje.
+
+jump, attack, aim, swap_weapons: botones de acción del personaje.
