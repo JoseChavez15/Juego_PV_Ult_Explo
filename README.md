@@ -1,7 +1,5 @@
-RoboBlast: Demo Shooter en Tercera Persona (Godot 4, 3D)
+El Ulti_Explorador
 
-Esta demo open-source para Godot 4 muestra cómo crear un controlador de personaje 3D inspirado en juegos como Ratchet and Clank o Jak and Daxter.
-Puedes copiar el personaje directamente a tu proyecto como un asset plug-and-play para prototipar juegos 3D y ampliarlo según tus necesidades.
 
 Incluye un personaje que puede correr, saltar, atacar cuerpo a cuerpo, apuntar, disparar y lanzar granadas.
 
