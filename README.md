@@ -25,13 +25,6 @@ Controles
 
 <kbd>Mouse</kbd> o <kbd>stick derecho</kbd>: mover la cámara.
 
-<kbd>Espacio</kbd> o <kbd>Xbox Ⓐ</kbd>: saltar.
-
-<kbd>Click izquierdo</kbd> o <kbd>Xbox Ⓑ</kbd>: disparar.
-
-<kbd>Click derecho</kbd> o <kbd>Xbox RT</kbd>: apuntar.
-
-<kbd>Tab</kbd> o <kbd>Xbox Ⓧ</kbd>: cambiar entre balas y granadas.
 
 Preguntas Frecuentes (FAQ)
 ¿Cómo uso el personaje del jugador en mi juego?
